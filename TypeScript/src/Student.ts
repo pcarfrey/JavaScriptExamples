@@ -16,9 +16,5 @@ class Student extends User {
     takeTest():void {
         this.testScore = Math.floor(Math.random() * 100);
     }
-
-    takeTest(bonusPoints:number):void {
-        this.testScore = Math.floor(Math.random() * 100 + bonusPoints);
-    }
 }
 export {Student};

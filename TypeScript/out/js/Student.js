@@ -22,9 +22,6 @@ var Student = (function (_super) {
     Student.prototype.takeTest = function () {
         this.testScore = Math.floor(Math.random() * 100);
     };
-    Student.prototype.takeTest = function (bonusPoints) {
-        this.testScore = Math.floor(Math.random() * 100 + bonusPoints);
-    };
     return Student;
 }(User_1.User));
 exports.Student = Student;
