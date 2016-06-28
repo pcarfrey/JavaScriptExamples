@@ -1,5 +1,5 @@
 /**
- * Created by pcity on 6/27/16.
+ * Created by pcarfrey on 6/27/16.
  */
 import {User} from "./User";
 class Teacher extends User {

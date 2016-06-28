@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 /**
- * Created by pcity on 6/27/16.
+ * Created by pcarfrey on 6/27/16.
  */
 var User_1 = require("./User");
 var Teacher = (function (_super) {
