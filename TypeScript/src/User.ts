@@ -1,7 +1,8 @@
 /**
  * Created by pcarfrey on 6/27/16.
  */
-class User {
+import {IUser} from "./IUser";
+class User implements IUser {
     constructor(public name:string, public id:number) {
     }
 
